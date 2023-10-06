@@ -7,7 +7,7 @@ the followig query seems buggy
 ```
 gh api graphql -f query='
 {
-  search(query: "repo:heinde/testIssueTracking in:title The issue with lots of tracking", type: ISSUE, first: 1) {
+  search(query: "repo:heindel/testIssueTracking in:title The issue with lots of tracking", type: ISSUE, first: 1) {
     issueCount
     nodes {
       ... on Issue {
